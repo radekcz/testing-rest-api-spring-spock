@@ -1,10 +1,14 @@
 package cz.rk.spring.dto;
 
-import lombok.RequiredArgsConstructor;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@RequiredArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
 public class Stats {
 
-    private final String status;
+    private String status;
 
 }
