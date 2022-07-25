@@ -1,5 +1,5 @@
-This project is the advisor how to test REST API using:
+This java project is the advisor how to test REST API using:
 
-- Spring Boot Test frame
+- Spring Boot Test framework
 - Groovy
 - Spock
