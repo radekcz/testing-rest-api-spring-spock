@@ -30,6 +30,7 @@ class StatsControllerMvcTest1Spec extends Specification {
 
     @org.springframework.boot.test.context.TestConfiguration
     static class TestConfiguration {
+
         @Bean
         StatsService statsService() {
             return new StatsService()
