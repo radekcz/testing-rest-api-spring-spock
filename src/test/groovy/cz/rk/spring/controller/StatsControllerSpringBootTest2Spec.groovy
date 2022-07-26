@@ -16,7 +16,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-@ActiveProfiles("test")
+@ActiveProfiles("test") // if we want to overwrite Bean StatsService in Spring context, it's necessary to turn on property "allow-bean-definition-overriding: true"
 class StatsControllerSpringBootTest2Spec extends Specification {
 
     @Autowired
